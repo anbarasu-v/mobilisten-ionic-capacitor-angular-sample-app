@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Platform } from '@ionic/angular';
+declare var ZohoSalesIQ: any;
 
 @Component({
   selector: 'app-home',
@@ -7,6 +9,15 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  constructor() {
+  }
+
+  ionViewWillEnter(){
+      console.log("HOME PAGE IN");
+      ZohoSalesIQ.showLauncher(true);
+  }
+
+  ngOnInit() {
+  }
 
 }
