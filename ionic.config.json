@@ -1,0 +1,7 @@
+{
+  "name": "AppIonicPurnathaDemoAppTwo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
